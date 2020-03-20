@@ -1,19 +1,8 @@
 ## 环境搭建
 
-##### 方法一:
-
 在当前环境安装本项目使用的环境
 
 `pip install -r ./requirements.txt `
-
-##### 方法二:
-
-创建一个虚拟环境, 用于安装本项目使用的环境
-
-1. `pip install pipenv`
-2. `进入项目根目录`
-3. `pipenv install`
-4. 在项目根目录`pipenv shell`进入虚拟环境即可运行代码
 
 ## 快速开始测试
 

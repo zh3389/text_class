@@ -33,7 +33,7 @@ class Model_train_parameter_config():
     def __init__(self):
         self.validation_ratio = 0.1  # 测试集占总数据集的比例
         self.epochs = 512
-        self.batch_size = 1024
+        self.batch_size = 2
         self.learning_rate = 0.01
         self.learning_rate_decay = 0.95
 
