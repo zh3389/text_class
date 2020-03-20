@@ -1,0 +1,10 @@
+*.pyc
+__pycache__/
+data/wiki.zh.vec
+*.json
+.idea/
+save_model/deploy/
+save_model/logs/
+save_model/save/
+test*.py
+*.npy
