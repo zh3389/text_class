@@ -1,0 +1,17 @@
+[[source]]
+name = "pypi"
+url = "https://mirrors.aliyun.com/pypi/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+keras = "*"
+pandas = "*"
+jieba = "*"
+tqdm = "*"
+requests = "*"
+tensorflow-gpu = "==1.14.0"
+
+[requires]
+python_version = "3.7"
