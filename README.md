@@ -43,7 +43,7 @@ python train.py  # 运行train.py文件进行训练demo数据
 2. embedded_matrix_size 为嵌入矩阵大小, 根据词频保留的词数,用于构建嵌入矩阵.**默认为: 10240**
 3. validation_ratio 为划分测试数据集占总数据集比例. **默认为: 0.2**
 4. epochs 为整个数据集迭代次数. **默认为: 512**
-5. batch_size 为优化模型每个批次的数据条数. **默认为: 128**
+5. batch_size 为优化模型每个批次的数据条数. **默认为: 2 注意:当前2为特殊情况(因为测试数据集较小)一定记得修改**
 6. learning_rate 为优化模型的学习速率. **默认为: 0.01**
 7. learning_rate_decay 为学习速率每个epochs进行衰减的比率. **默认为: 0.95**
 
