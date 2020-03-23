@@ -28,11 +28,11 @@ def predict(string):
     payload = {
         "instances": [{'input': word_seq_all_test.tolist()[0]}]
     }
-    r = requests.post('http://192.168.66.59:8501/v1/models/illegal_classifier:predict', json=payload)
+    r = requests.post('http://localhost:8501/v1/models/illegal_classifier:predict', json=payload)
     output = json.loads(r.content.decode('utf-8'))["predictions"]
     text_class = int(np.argmax(output, axis=1))
     predict_score = max(output[0])
-    class_dict = {0: "网络赌博", 1: "打击", 2: "网络黑产", 3: "网络诈骗", 4: "网络色情", 5: "网络传销", 6: "白名单"}
+    class_dict = {0: "phone", 1: "bank", 2: "country"}
     print(class_dict[text_class])
     print(predict_score)
     return class_dict[text_class]
