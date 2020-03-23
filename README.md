@@ -4,6 +4,20 @@
 
 `pip install -r ./requirements.txt `
 
+我尝试将项目克隆下来之后安装了requirements里的包,发现始终缺少依赖.
+
+所以我将重要的包版本罗列出来, 建议使用conda安装以下列表的依赖和对应的版本...
+
+```
+jieba==0.39
+numpy==1.17.3
+requests==2.22.0
+keras==2.3.0
+pandas==0.25.1
+tqdm==4.31.0
+tensorflow==1.14.0
+```
+
 ## 快速开始测试
 
 下载**wiki.zh.vec**至项目文件夹下 **./data/** [下载地址](https://fasttext.cc/docs/en/pretrained-vectors.html)
