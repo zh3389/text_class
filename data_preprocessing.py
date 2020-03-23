@@ -41,8 +41,6 @@ class Data_preprocessing():
                 os.remove(self.tokenizer_path)
             self.remove_stop_word_list = self.get_remove_stop_word()
         self.tokenizer = self.get_tokenizer()
-        # train_label = np.array(list(map(lambda x: config.label_dict[x], self.label)))
-        # 将代码面向对象化.
 
     def remove_stop_words(self, sentence, cut_all=True):
         '''
