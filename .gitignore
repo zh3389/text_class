@@ -8,3 +8,4 @@ save_model/logs/
 save_model/save/
 test*.py
 *.npy
+data/find_new_word/new_word_list.txt
