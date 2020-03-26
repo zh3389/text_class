@@ -19,7 +19,7 @@ class Compute_input_max_seq_len():
     # 计算模型输入长度
     def __init__(self, data):
         self.data = data
-        self.input_len_threshold = 256
+        self.input_len_threshold = 128
         self.default_inputmax_seq_len = 512
         self.input_max_seq_len = self.get_input_max_seq_len()
         print("模型输入长度为:{}".format(self.input_max_seq_len))
