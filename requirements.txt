@@ -23,7 +23,7 @@ colorama==0.4.1
 colorlover==0.3.0
 community==1.0.0b1
 cpca==0.4.4
-cryptography==2.7
+cryptography==3.2
 cufflinks==0.17.0
 cycler==0.10.0
 Cython==0.29.14
